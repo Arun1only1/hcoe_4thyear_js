@@ -43,7 +43,22 @@
 // console.log(res);
 
 // ? aesthetic
-const checkOddOrEven = (num) => (num % 2 === 0 ? "Even" : "Odd");
+// const checkOddOrEven = (num) => (num % 2 === 0 ? "Even" : "Odd");
 
-const res = checkOddOrEven(11);
-console.log(res);
+// const res = checkOddOrEven(11);
+// console.log(res);
+
+// ? WAF which accepts n as argument and
+// ? prints whether the number is divisible by 5
+
+const divideBy5 = (n) => {
+  let remainder = n % 5;
+
+  if (remainder === 0) {
+    console.log("divisible by 5");
+  } else {
+    console.log("non-divisible by 5");
+  }
+};
+
+divideBy5(25);
