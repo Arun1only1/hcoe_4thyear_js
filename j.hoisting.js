@@ -20,8 +20,8 @@
 //   console.log("hello");
 // }
 
-const sayHello = () => {
-  console.log("Hello");
-};
+// const sayHello = () => {
+//   console.log("Hello");
+// };
 
-sayHello();
+// sayHello();

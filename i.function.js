@@ -62,3 +62,18 @@ const divideBy5 = (n) => {
 };
 
 divideBy5(25);
+
+// ? add numbers upto n
+
+// const getSum = (num) => {
+//   let sum = 0;
+
+//   for (let i = 1; i <= num; i++) {
+//     sum = sum + i;
+//   }
+
+//   return sum;
+// };
+
+// const res = getSum(10);
+// console.log(res);
